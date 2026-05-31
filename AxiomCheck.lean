@@ -1,0 +1,6 @@
+import SIDESimplicity.Codimension
+#print axioms SIDESimplicity.transversal_generic_empty
+#print axioms SIDESimplicity.codim_exceeds_curve
+#print axioms SIDESimplicity.codim_margin
+#print axioms SIDESimplicity.margin_fails_at_threshold
+#print axioms SIDESimplicity.no_tuning
