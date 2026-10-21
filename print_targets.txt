@@ -1,0 +1,5 @@
+SIDESimplicity.transversal_generic_empty
+SIDESimplicity.codim_exceeds_curve
+SIDESimplicity.codim_margin
+SIDESimplicity.margin_fails_at_threshold
+SIDESimplicity.no_tuning
