@@ -5,9 +5,13 @@
   The Section II transversality / codimension-margin engine of the
   Simplicity keystone (SIMPLICITY_OF_RIEMANN_ZEROS_v1_0).
 
-  Section I.2 (perpendicular crossing) and Section III (trace-formula
-  closing logic) are already proved in the deposited SIDE-kernel
-  (PerpendicularCrossing.lean). This kernel carries the Section II
+  Section III (trace-formula closing logic) is compiled as a
+  premise-taking logical schema in the deposited SIDE-kernel
+  (PerpendicularCrossing.lean, multiplicity_from_identity /
+  simplicity_from_trace_structure); Section I.2 (perpendicular
+  crossing) is there only as the ring identity perpendicular_gradients
+  (0*c1 + (-c1)*0 = 0), its geometric content resting on the
+  simplicity axiom. This kernel carries the Section II
   dimensional / logical skeleton only. It does NOT claim the analytic
   Thom transversality theorem (Thom 1956, delegated), nor the
   real-analytic non-degeneracy of the five contributions (manuscript).
