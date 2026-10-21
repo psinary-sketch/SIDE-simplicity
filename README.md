@@ -6,7 +6,7 @@ J. York Seale — https://orcid.org/0009-0008-7993-0310
 
 ## What it proves
 
-Representative kernel for the Simplicity cluster (keystone: SIMPLICITY_OF_RIEMANN_ZEROS_v1_0). It carries the part of that keystone NOT already in the deposited SIDE-kernel. Section I.2 (perpendicular crossing) and Section III (trace-formula closing logic) are already proved in SIDE-kernel (PerpendicularCrossing.lean: perpendicular_gradients, multiplicity_from_identity, simplicity_from_trace_structure). This kernel formalizes the Section II dimensional / logical skeleton:
+Representative kernel for the Simplicity cluster (keystone: SIMPLICITY_OF_RIEMANN_ZEROS_v1_0). It carries the part of that keystone NOT already in the deposited SIDE-kernel. Section III (trace-formula closing logic) is compiled in SIDE-kernel as a premise-taking logical schema (PerpendicularCrossing.lean: multiplicity_from_identity, simplicity_from_trace_structure); Section I.2 (perpendicular crossing) is there only as the ring identity perpendicular_gradients (0*c1 + (-c1)*0 = 0), its geometric content resting on the simplicity axiom. This kernel formalizes the Section II dimensional / logical skeleton:
 
 - `transversal_generic_empty` — a dimension-1 parameter curve against a codimension >= 2 obstruction has negative expected intersection dimension (the Phi : R -> C^5 vs hyperplane count).
 - `codim_exceeds_curve` / `codim_margin` — five independent mechanism-class sources vs curve dimension 1; the argument tolerates loss of independence to correlation, failing only at the threshold.
