@@ -4,7 +4,7 @@ open Lake DSL
 package «SIDE-simplicity» where
 
 require mathlib from git
-  "https://github.com/leanprover-community/mathlib4.git" @ "v4.29.1"
+  "https://github.com/leanprover-community/mathlib4.git" @ "de5ce8a9a66a4aa68a9bdbb35b63a06d34d9ca11"
 
 @[default_target]
 lean_lib «SIDESimplicity» where
